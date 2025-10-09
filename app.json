@@ -1,0 +1,13 @@
+{
+  "name": "Frozen Music API",
+  "description": "❄️ Frozen Music — Core Assistant API service.",
+  "repository": "https://github.com/prashantsahlot/frozenvcmusicbot",
+  "logo": "https://telegra.ph/file/d02b81736a7e9519c6386.jpg",
+  "env": {
+    "ASSISTANT_SESSION": {
+      "description": "Pyrogram string session for assistant account",
+      "required": true
+    }
+  },
+  "stack": "container"
+}
