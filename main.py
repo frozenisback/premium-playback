@@ -18,7 +18,7 @@ app = Flask(__name__)
 DOWNLOAD_APIS = {
     'default': os.environ.get(
         'DOWNLOAD_API_URL',
-        'https://divine-dream-fde5.lagendplayersyt.workers.dev/down?url='
+        'https://yt-api-1772586ebdd2.herokuapp.com/download?url='
     ),
     'secondary': os.environ.get(
         'SECONDARY_DOWNLOAD_API_URL',
@@ -26,7 +26,7 @@ DOWNLOAD_APIS = {
     ),
     'tertiary': os.environ.get(
         'TERTIARY_DOWNLOAD_API_URL',
-        'https://ytapi-df6f5442e070.herokuapp.com/download?url='
+        'https://yt-api-1772586ebdd2.herokuapp.com/download?url='
     )
 }
 
